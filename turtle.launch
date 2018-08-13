@@ -1,0 +1,5 @@
+<launch>
+   <node pkg="turtlesim" name="turtlesim" type="turtlesim_node" repawn="true"/>
+   <node pkg="turtle" name="talk" type="talk.py"/>
+   
+</launch>
